@@ -13,7 +13,7 @@ DEVICE_PATH := device/xiaomi/pipa
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Display
-TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_DENSITY := 400
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/xiaomi/pipa.config
