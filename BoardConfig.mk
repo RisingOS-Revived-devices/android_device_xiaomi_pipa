@@ -16,7 +16,7 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_SCREEN_DENSITY := 400
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/pipa.config
+TARGET_KERNEL_CONFIG += pipa_defconfig
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := pipa
