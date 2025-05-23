@@ -6,6 +6,7 @@ declare -A REPOS=(
     ["vendor/xiaomi/pipa"]="https://github.com/Matrixx-Devices/proprietary_vendor_xiaomi_pipa"
     ["vendor/xiaomi/sm8250-common"]="https://github.com/Matrixx-Devices/proprietary_vendor_xiaomi_sm8250-common"
     ["kernel/xiaomi/sm8250"]="https://github.com/Matrixx-Devices/android_kernel_xiaomi_pipa"
+    ["packages/apps/KProfiles"]="https://github.com/CuriousNom/android_packages_apps_Kprofiles.git"
     ["hardware/dolby"]="https://github.com/Matrixx-Devices/hardware_dolby.git"
 )
 
