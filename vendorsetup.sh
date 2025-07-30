@@ -2,11 +2,10 @@
 
 # Define repositories and their target directories
 declare -A REPOS=(
-    ["device/xiaomi/sm8250-common"]="https://github.com/Matrixx-Devices/android_device_xiaomi_sm8250-common"
-    ["vendor/xiaomi/pipa"]="https://github.com/Matrixx-Devices/proprietary_vendor_xiaomi_pipa"
-    ["vendor/xiaomi/sm8250-common"]="https://github.com/Matrixx-Devices/proprietary_vendor_xiaomi_sm8250-common"
-    ["kernel/xiaomi/sm8250"]="https://github.com/Matrixx-Devices/android_kernel_xiaomi_pipa"
-    ["hardware/dolby"]="https://github.com/Matrixx-Devices/hardware_dolby.git"
+    ["device/xiaomi/sm8250-common"]="https://github.com/ximicore/android_device_xiaomi_sm8250-common"
+    ["vendor/xiaomi/pipa"]="https://github.com/ximicore/proprietary_vendor_xiaomi_pipa"
+    ["vendor/xiaomi/sm8250-common"]="https://github.com/ximicore/proprietary_vendor_xiaomi_sm8250-common"
+    ["kernel/xiaomi/sm8250"]="https://github.com/ximicore/android_kernel_xiaomi_sm8250"
 )
 
 # Continue with other repos
@@ -21,7 +20,7 @@ done
 
 # Hardware/xiaomi
 HW_XIAOMI_DIR="hardware/xiaomi"
-LOS_REPO="https://github.com/Matrixx-Devices/hardware_xiaomi.git"
+LOS_REPO="https://github.com/PocoF3Releases/hardware_xiaomi"
 
 if [ -d "$HW_XIAOMI_DIR" ]; then
     # Check if it's the los repo
@@ -39,7 +38,7 @@ fi
 
 # Device Settings
 DEVICESETTINGS_DIR="packages/resources/devicesettings"
-DEVICESETTINGS_REPO="https://github.com/Matrixx-Devices/android_packages_resources_devicesettings.git"
+DEVICESETTINGS_REPO="https://github.com/PocoF3Releases/packages_resources_devicesettings"
 
 if [ -d "$DEVICESETTINGS_DIR" ]; then
     # Check if it's the correct repo
