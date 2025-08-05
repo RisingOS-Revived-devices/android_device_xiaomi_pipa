@@ -5,6 +5,7 @@ declare -A REPOS=(
     ["device/xiaomi/sm8250-common"]="https://github.com/ximicore/android_device_xiaomi_sm8250-common"
     ["vendor/xiaomi/pipa"]="https://github.com/ximicore/proprietary_vendor_xiaomi_pipa"
     ["vendor/xiaomi/sm8250-common"]="https://github.com/ximicore/proprietary_vendor_xiaomi_sm8250-common"
+    ["vendor/xiaomi/pipa-firmware"]="https://codeberg.org/CuriousNom/proprietary_vendor_xiaomi_pipa-firmware"
     ["kernel/xiaomi/sm8250"]="https://github.com/ximicore/android_kernel_xiaomi_sm8250"
 )
 
