@@ -11,6 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # Inherit some common lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
+# RisingOS Revived Flags
+PRODUCT_BUILD_PROP_OVERRIDES +=
+     RisingChipset="Snapdragon 870"
+     RisingMaintainer="YuvarajAF & Aryan"
+
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+
 # EPPE
 TARGET_DISABLE_EPPE := true
 
