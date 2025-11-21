@@ -14,8 +14,9 @@ $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 # RisingOS Revived Flags
 PRODUCT_BUILD_PROP_OVERRIDES +=
      RisingChipset="Snapdragon 870"
-     RisingMaintainer="YuvarajAF & Aryan"
+     RisingMaintainer="YuvarajAF"
 
+RISING_MAINTAINER := YuvarajAF
 WITH_GMS := true
 TARGET_USES_PICO_GAPPS := true
 
